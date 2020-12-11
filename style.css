@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    text-shadow: 2px 2px #487bfa;
+}
+
+#about {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+#profile {
+    border-radius: 200px;
+    width: 200px;
+}
+
+#name {
+    font-family: 'Courgette', cursive;
+}
+
+#welcome {
+    height: 800px;
+    width: 100%;
+    background: linear-gradient(#487bfa 0%, #48fadf 100%);
+    display: table;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 9;
+}
+
+#parllax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: white;
+    z-index: 10;
+}
+}
+
+.line {
+    width: 100px;
+    color: white;
+    height: 7px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #4a0469;
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.links {
+    display: inline;
+    float: left;
+    padding: 8px;
+    font-size: 15px;
+}
+
+li a:hover {
+    background-color:#ff05d5;
+    font-size: 22px;
+}
+
+#about {
+    background-color: #ffb0ee;
+}
+
+#img {
+    padding: 20px;
+    background-color: #ffb0ee;
+}
+
+#inpire {
+    padding: 20px;
+    background-color: #ffb0ee;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.icons {
+    width: 50px;
+}
+#work{
+    padding:20px;
+    background-color: #ffb0ee;
+}
+.crafts{
+    width: 250px;
+    height:230px;
+}
+#inspire{
+  width:   250px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
